@@ -10,7 +10,7 @@ class BookTest {
     @Test void testBookConstructor() {
         Book book = new Book("1984", "George Orwell", 1949);
         assertEquals("1984", book.getTitle());
-        assertEquals("George Orwell", book.getAuthor());
+        assertEquals("George Orwell", book.getAuthors());
         assertEquals(1949, book.getYearPublished());
     }
 }
